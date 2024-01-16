@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "speech-dict"
+version = "0.1.0"
+description = "A speech about how Python dictionaries work"
+authors = ["Kai Striega <kaistriega@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+numpy = "^1.26.3"
+plotly = "^5.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
